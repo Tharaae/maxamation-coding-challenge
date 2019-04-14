@@ -1,0 +1,82 @@
+.app {
+  margin: 10%;
+}
+
+.main-title {
+  text-align: left;
+}
+
+.search-container {
+  width: 100%;
+  padding-bottom: .25em;
+  border-bottom: 1px solid DarkTurquoise;
+}
+
+.search-photos {
+  display: inline;
+  width: calc(100% - 30px);
+  border: 0;
+  outline: none;
+}
+
+.search-button {
+  display: inline;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  background-color: white;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.clear-icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.radio-group {
+  text-align: right;
+  padding-top: .25em;
+  font-size: 0.8em;
+}
+
+.photos-container {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.photo-container {
+  margin-right: 2em;
+  margin-bottom: 2em;
+  width: calc(50% - 1em);
+  min-width: 300px;
+}
+
+.photo-container:nth-child(2n) {
+  margin-right: 0;
+}
+
+.author {
+    display: flex;
+    background-color: #ddd;
+    padding: 0 1em;
+    border-radius: 5px 5px 0 0;
+}
+
+.author h5 {
+  margin: .75em 0;
+}
+
+.photo {
+  width: 100%;
+}
