@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Interview Coding Challange - Flickr Images Search
+**By _Tharaa Elmorssi_**
+---
 
-## Available Scripts
+## App Overview
+The application uses existing third-party service (Flickr APIs) to build single page app (SPA) so that end users can use this web app to search photos online.
 
-In the project directory, you can run:
 
-### `npm start`
+## Project Details
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* This project was bootstrapped with `create-react-app` package.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* It initially displays an input field with search icon displayed on the right side.
 
-### `npm test`
+* When user keys in ‘sydney’ for example, search icon changed to cross icon where user can dismiss to revert to initial state.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Search Results images, along with author name, are displayed and updated while user entered or updated the key word(s).
 
-### `npm run build`
+* Radio group having 3 options (2, 10, 30) displayed below search box indicating how many photos to be displayed in result page. User has the option to change the number of images displayed.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**_Note that:_**
+* Two Flickr APIs are used: Photo Search API and Photo Info API
+* The app is responsive to any screen size
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to run the App as development build
 
-### `npm run eject`
+### To run the app as development build:
+- Clone the App repository to a folder on your local machine via `git clone https://github.com/Tharaae/maxamation-coding-challenge.git`
+- Install all project dependencies with `npm install` in the project folder
+- Start the app with `npm start`
+- Browse to the provided URL
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### To run the app as production build:
+- Clone the submitted project repository to a folder on your local machine
+- Install all project dependencies with `npm install` in the project folder
+- Build the app for production with `npm run build` in the project folder
+- Install serve with `npm i serve -g`
+- Setup a static server for the app with `serve -s build` in the project folder
+- Browse to the provided URL
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### To test the App:
+Simple tests are created to ensure that the App runs and the components are rendered without crashes.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Run the tests with `npm test` then press `a` to run all tests.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
