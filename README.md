@@ -6,9 +6,9 @@
 The application uses existing third-party service (Flickr APIs) to build single page app (SPA) so that end users can use this web app to search photos online.
 
 
-## Project Details
+## App Details
 
-* This project was bootstrapped with `create-react-app` package.
+* This application was bootstrapped with `create-react-app` package.
 
 * It initially displays an input field with search icon displayed on the right side.
 
@@ -25,7 +25,7 @@ The application uses existing third-party service (Flickr APIs) to build single 
 
 ## How to run the App as development build
 
-### To run the app as development build:
+### To run the App as development build:
 - Clone the App repository to a folder on your local machine via `git clone https://github.com/Tharaae/maxamation-coding-challenge.git`
 - Install all project dependencies with `npm install` in the project folder
 - Start the app with `npm start`
